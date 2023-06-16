@@ -1,0 +1,32 @@
+{
+  "name": "web-api",
+  "version": "0.0.1",
+  "description": "web api 및 web socket 프로그램",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "WS",
+  "license": "ISC",
+  
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "nunjucks": "^3.2.1",
+    "passport": "^0.6.0",
+    "passport-kakao": "1.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.19.2",
+    "uuid": "^8.3.2",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.5.1",
+    "color-hash": "^1.0.3",
+    "ws": "^8.2.3"
+  }
+}
