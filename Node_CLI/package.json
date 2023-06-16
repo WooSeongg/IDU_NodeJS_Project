@@ -1,0 +1,16 @@
+{
+  "name": "Node_CLI",
+  "version": "0.0.1",
+  "description": "NodeJS CLI 프로그램",
+  "main": "index.js",
+  "author": "WS",
+  "license": "ISC",
+  "bin": {
+    "cli": "./command.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.5.0",
+    "inquirer": "^8.2.4"
+  }
+}
